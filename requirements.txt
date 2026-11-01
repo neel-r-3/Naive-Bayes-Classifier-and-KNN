@@ -1,0 +1,17 @@
+# SMAI Assignment 1 — Python dependencies
+#
+# Setup:
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# Note on ipykernel: version 7.x changed the kernel protocol and the VSCode
+# Jupyter extension hangs at "Connecting to kernel" against it. Pinned below 7.
+
+numpy>=2.0
+pandas>=2.0
+matplotlib>=3.8
+scipy>=1.11
+openpyxl>=3.1
+notebook>=7.0
+ipykernel<7
